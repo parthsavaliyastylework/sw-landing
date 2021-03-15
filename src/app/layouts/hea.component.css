@@ -1,0 +1,252 @@
+
+/* navbar is the bootstrap4 class, padding 0px  in .sw-container */
+.navbar{
+    padding: 0px;
+}
+.navbar-collapse{
+    align-items: unset;
+}
+
+
+/* Stylework logo styling */
+.header-logo{
+    background-image: url(../../../../assets/stylework_logo/Stylework-logo.png);
+    height: 40px;
+    width: 140px;
+    background-repeat: no-repeat;
+    margin-top: 26px;
+}
+
+/* header links container */
+.header-links{
+    display: flex;
+    margin-top: 35px;
+    float:right;
+}
+
+/* header links container items */
+.header-links-items{
+    cursor: pointer;
+    display: block;
+    margin-left:40px;
+    font-size: 14px;
+    line-height: 14px;
+    align-items: center;
+    letter-spacing: 0.0025em;
+    color: #262D3D;
+    text-decoration: none;
+   
+}
+.header-links-items:hover{
+    text-decoration: none;
+    color:#262D3D;
+}
+
+/* header log in button styling */
+.header-login{
+    margin-top:-10px;
+    display: block;
+    background-color: #20847D;
+    color: white;
+    margin-left:56px;
+    font-size: 14px;
+    line-height: 14px;
+    align-items: center;
+    letter-spacing: 0.0025em;
+}
+.header-login:hover{
+    color: white;
+}
+
+
+
+
+/* Extra small devices(phones)*/
+@media screen and (max-width:600px) {
+    /* Stylework logo styling */
+    .header-logo{
+        margin-top: 16px;
+    }
+    /* header links container */
+    .header-links{
+       display: block;
+       margin-top:10px;
+       margin-left: 0px;
+       
+    }
+    /* header links container items */
+    .header-links-items{
+        padding: 5px;
+        margin-top:15px;
+        margin-left: 0px; 
+    }
+   
+    .header-login{
+       margin-top: 15px;
+       padding: 8px 15px 8px 15px;
+       margin-left:0px;
+       width:70px;
+      
+    }
+
+  }
+
+/*Small devices(portrait tablets and large phones)*/
+@media screen and (min-width:600px) {
+
+    /* Stylework logo styling */
+    .header-logo{
+        margin-top: 20px;
+    }
+
+    /* header links container */
+    .header-links{
+       display: block;
+       margin-top:14px;
+       margin-left: 0px;
+    }
+    /* header links container items */
+    .header-links-items{
+        padding: 10px;
+        margin-top:10px;
+        margin-left: 0px;
+       
+    }
+    /* header log in button styling */
+    
+    .header-login{
+       margin-top:10px;
+       padding: 8px 15px 8px 15px;
+       margin-left:0px;
+       width:70px;
+      
+    }
+}
+
+/*medium devices(landscape tablets and large phones)*/
+@media screen and (min-width:768px) {
+   /* Stylework logo styling */
+    .header-logo{
+        margin-top: 20px;
+    }
+
+    /* header links container */
+    .header-links{
+       display: block;
+       margin-top:14px;
+       margin-left: 0px;
+    }
+    /* header links container items */
+    .header-links-items{
+        padding: 10px;
+        margin-top:10px;
+        margin-left: 0px;
+       
+    }
+    /* header log in button styling */
+    
+    .header-login{
+       margin-top:10px;
+       padding: 8px 15px 8px 15px;
+       margin-left:0px;
+      
+    }
+}
+
+
+/*medium devices(landscape tablets and large phones)*/
+@media screen and (min-width:992px) {
+
+    /* Stylework logo styling */
+    .header-logo{
+        margin-top: 20px;
+    }
+    /* header links container */
+    .header-links{
+        display: flex;
+        margin-top: 20px;
+    }
+    /* header links container items */
+    .header-links-items{
+        cursor: pointer;
+        margin-left:20px;
+        padding: 0px;
+       
+    }
+    
+    
+    /* header log in button styling */
+    .header-login{
+        margin-top: -0.5px;
+        padding: 8px 15px 8px 15px;
+        display: inline;
+        margin-left: 30px;
+        width: auto;
+    }
+    
+    }
+
+    /*medium devices(landscape tablets and large phones)*/
+    @media screen and (min-width:1200px) {
+        
+        
+        /* Stylework logo styling */
+        .header-logo{
+            margin-top: 26px;
+        }
+        /* header links container */
+        .header-links{
+            display: flex;
+            margin-top: 20px;
+        }
+        /* header links container items */
+        .header-links-items{
+            cursor: pointer;
+            margin-left:25px;
+            padding: 0px;
+        
+        }
+        
+        
+        /* header log in button styling */
+        .header-login{
+            padding: 8px 15px 8px 15px;
+            display: inline;
+            margin-left: 20px;
+            width:auto;
+        }
+
+}
+    /*medium devices(landscape tablets and large phones)*/
+    @media screen and (min-width:1300px) {
+        
+        
+        /* Stylework logo styling */
+        .header-logo{
+            margin-top: 26px;
+        }
+        /* header links container */
+        .header-links{
+            display: flex;
+            margin-top: 20px;
+        }
+        /* header links container items */
+        .header-links-items{
+            cursor: pointer;
+            margin-left:35px;
+            padding: 0px;
+        
+        }
+        
+        
+        /* header log in button styling */
+        .header-login{
+            padding: 8px 15px 8px 15px;
+            display: inline;
+            margin-left: 40px;
+            width: auto;
+        }
+
+}
+
+ 

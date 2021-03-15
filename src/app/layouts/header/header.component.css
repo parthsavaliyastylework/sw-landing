@@ -1,0 +1,48 @@
+.navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 4.0rem;
+    font-family: 'Manrope';
+    font-weight: bold;
+    padding-top: 1.5rem;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        padding-right: 5rem;
+    }
+}
+
+[type=button]:not(:active),
+[type=reset]:not(:active),
+[type=submit]:not(:active),
+button:not(:active) {
+    cursor: pointer;
+    background-color: #20847D;
+}
+
+.logo {
+    position: absolute;
+    width: 12% !important;
+    height: 55% !important;
+    left: -7.5% !important;
+    top: 20% !important;
+    cursor: pointer;
+    /*  background: url(link.png);*/
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 24px;
+    width: 87px;
+    height: 38px;
+    right: 156px;
+    top: 28px;
+    /* Primary/Teal*/
+    background: #20847D;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}

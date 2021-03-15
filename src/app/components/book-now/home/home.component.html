@@ -1,0 +1,301 @@
+<div>
+    <section>
+        <div class="container-flued p-5">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 createyourworkspace">
+                    Create your workspace for your
+                    <span class="lightskytext mr-3" href="Business"> business</span>
+                    <br/>
+                    <div>
+                        <ul class="nav nav-tabs mb-3 ">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12 col-md-12 col-xl-12">
+                                    <div class="nav-item">
+                                        <a href="#explore" class="btn btn-sm btn-primary lightskycolor  explorespacetab tab-content nav-link active" data-toggle="tab">Explore Space</a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-md-6 col-xl-6  ">
+                                    <div class="nav-item">
+                                        <a href="#flexible" class="btn btn-sm btn-primary lightskytext flexiblemembershiptab tab-content nav-link" data-toggle="tab">Flexible Membership</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                        <div class="border tab-content">
+                            <div class="tab pane fade show active" id="explore">
+                                <div class="Exploretheperfectworkplace">
+                                    Explore the perfect workplace personalised to your needs across our
+                                    <b>500+</b> locations
+                                </div>
+                                <div>
+                                    <input placeholder="Where do you want to work at?" id="locationPlaceholder">
+                                    <button class="explore">Explore</button>
+
+                                    <img src="assets/img/search.png" class="search">
+                                    <div class="loc">
+                                        <img src="assets/img/locate-me.png" href="#use my curunnt location" alt=".">
+
+
+                                    </div>
+
+                                    <div class="cityinformation">Popular Cities to work at:</div>
+
+
+
+                                    <owl-carousel [options]="myCarouselOptions3" [carouselClasses]="['owl-theme', 'sliding']">
+                                        <div class="item" *ngFor="let image of images;let i = index">
+                                            <div class="thumbnail-image " [ngStyle]="{'background': 'transparent'}">
+                                                <div style="max-width: 88px; max-height: 96px; left: 22px;" class="testwrapper owl-left">
+                                                    <img src="{{image}}">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </owl-carousel>
+
+
+
+                                    <!--  <ul class="nav nav-pills">
+                                        <li class="active"><a data-toggle="pill" href="#home">Home</a></li>
+                                        <li><a data-toggle="pill" href="#menu1">Menu 1</a></li>
+
+                        </ul>
+
+                        <div class="tab-content">
+                            <div id="home" class="tab-pane fade in active">
+                                <h3>HOME</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                            <div id="menu1" class="tab-pane fade">
+                                <h3>Menu 1</h3>
+                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+
+                        </div> -->
+
+                                    <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <div class="row ">
+                                                    <div class="col-md-3 col-lg-3 col-sm-3 d-block p-lg">
+                                                        <img src="assets/img/Delhi.png" class=" w-22" alt="Delhi">
+                                                    </div>
+                                                    <div class="col-md-3 col-lg-3 col-sm-3">
+                                                        <img src="assets/img/Pune.png" class=" w-22" alt="Pune">
+
+                                                    </div>
+                                                    <div class="col-md-3 col-lg-3 col-sm-3">
+                                                        <img src="assets/img/Kolkata.png" class=" w-22" alt="Kolkata">
+
+                                                    </div>
+                                                    <div class="col-md-3 col-lg-3 col-sm-3">
+                                                        <img src="assets/img/Hyderabad.png" class=" w-22" alt="Hydrabad">
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="row ">
+                                                    <div class="col-md-3 col-lg-3 col-sm-3 d-block">
+                                                        <img src="assets/img/Noida.png" class=" w-22" alt="...">
+                                                    </div>
+                                                    <div class="col-md-3 col-lg-3 col-sm-3">
+                                                        <img src="assets/img/Bengaluru.png" class=" w-22" alt="...">
+
+                                                    </div>
+                                                    <div class="col-md-3 col-lg-3 col-sm-3">
+                                                        <img src="assets/img/Gurgaon.png" class=" w-22" alt="...">
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>-->
+
+
+
+
+
+                                    <div class="needcustomizable">
+                                        Need customizable plans?Check our &nbsp;
+                                        <a class="lightskytext" href="#"> flexible memberships </a>
+                                    </div>
+
+                                    <!--<div class="ellipse">
+                                        <img src="assests/img/Ellipse.png" />
+                                    </div>-->
+                                </div>
+                            </div>
+
+
+
+
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <img src="assets/img/box1.png" class="roundedHomeImg" />
+
+                    <a class="leftminibox ">
+                        <div class="containt whitecolor">
+                            <p>
+                                Fully operated environment to save all your operational costs.
+                            </p>
+
+                            <p>
+                                Advanced safety and sanetisation practises to ensure a safe workplace.
+                            </p>
+
+                            <p>Extensive amenities to ensure a productive output.</p>
+                        </div>
+                        <p class="heading whitecolor">No operational hassles</p>
+                        <a class="iconmain">
+                            <img src="assets/img/iconleft.png" />
+                        </a>
+                        <div class="headerleft">
+                            <img src="assets/img/Vector.png" alt />
+                            <img src="assets/img/Vector.png" alt />
+                            <img src="assets/img/Vector.png" alt />
+                        </div>
+                    </a>
+                    <div class="boxmini2">
+                        <div class="containtright primarywhite">
+                            <br />
+                            <p>Fixed/multilocational workspace access</p>
+
+                            <p>
+                                Fully-customizable offerings (seats, employees, and many more)
+                            </p>
+
+                            <p>Hassle-free access control</p>
+
+                            <p>
+                                Offerings that suits your budget, or specific brands of your own choice
+                            </p>
+                        </div>
+                        <div class="heading1 primarywhite">
+                            Flexible, remote working
+                            <!-- <img src="assets/img/Vector.png" class="v1" alt="..."> -->
+
+                            <div class="iconright">
+                                <img src="assets/img/iconleft.png" />
+                            </div>
+                            <div class="header">
+                                <img src="assets/img/Vector.png" alt />
+                                <img src="assets/img/Vector.png" alt />
+                                <img src="assets/img/Vector.png" alt />
+                                <img src="assets/img/Vector.png" alt />
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="boxmini3">
+                        <div class="containtleft primarywhite">
+                            <p>Hassle-free contraction & expansion of your workspace</p>
+
+                            <p>No Lock-in period</p>
+
+                            <p>Minimum security deposits</p>
+                        </div>
+                        <div class="heading2 primarywhite">Zero Liability</div>
+                        <div class="iconleft">
+                            <img src="assets/img/iconleft.png" />
+                        </div>
+                        <div class="headerleft">
+                            <img src="assets/img/Vector.png" />
+                            <img src="assets/img/Vector.png" />
+                            <img src="assets/img/Vector.png" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col order-first">
+                        <p class="a500">500+</p>
+                        <p class="locations">Locations</p>
+                        <div href="to choose from" class="choosefrom"> to choose from </div>
+                    </div>
+                    <div class="col">
+                        <p class="a4000">4000+</p>
+                        <p class="four">Customers</p>
+                        <p href="served" class="served"> served </p>
+                    </div>
+
+                    <div class="col order-last">
+                        <p class="a200">200+</p>
+                        <p class="seven">Enterprises</p>
+                        <p href="served" class="eight"> served </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+<div>
+    <section>
+        <div class="container-flued p-5">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <p class="h5">Why opt for a co-working space?</p>
+                    <p class="h6">
+                        It’s not just co-working. it’s way more than a desk. Getting a workspace should be hassle-free, and that’s what we aim to provide you!
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+        <div>
+
+            <p class="h7">
+                <b>Zero set-up and maintenance costs</b>
+            </p>
+            <p class="h8">
+                With a plug-and-play setup, we provide everything you would need from day one. Being a managed workspace, you won’t have to worry about the nitty-gritty of facility and/or maintenance management.
+            </p>
+
+            <p class="h9">
+                <b>Amenities you'll love</b>
+            </p>
+            <p class="h10">
+                All our workspaces offer more than just a workspace table. Some have recreational areas, coffee lounges and even quiet rooms.
+            </p>
+            <p class="h11">
+                <b>Sanitized and hygiene-maintained spaces</b>
+            </p>
+            <p class="h12">
+                All our partner spaces follow a regimen of cleaning and sanitization, ensuring that every space and touchpoint is clean and safe.
+            </p>
+        </div>
+
+        <div>
+            <img src="assets/img/damiimg.png" class="slideimg3" />
+            <p class="h13">Sanitized and hygiene-maintained spaces</p>
+            <img src="assets/img/damiimg.png" class="slideimg4" />
+            <img src="assets/img/damiimg.png" class="slideimg5" />
+        </div>
+    </section>
+</div>

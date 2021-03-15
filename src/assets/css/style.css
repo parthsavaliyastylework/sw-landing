@@ -1,0 +1,110 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+/* You can add global styles to this file, and also import other style files */
+
+
+/* global css*/
+
+
+/* Stylework Logo Transparent_White Bg Wordmark + Icon 1 */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+* {
+    font-family: Manrope;
+    font-style: normal;
+}
+
+li,
+a,
+button {
+    font-family: "monrope", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #262D3D;
+    text-decoration: none;
+}
+
+header {
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 38px 29.5%;
+    font-family: Manrope;
+    font-style: normal;
+    position: static;
+    color: #262D3D;
+}
+
+
+/* PRIMARY COLOR*/
+
+.primarycolor {
+    background: #092D2A;
+}
+
+.primarycolor1 {
+    background: #0C3835;
+}
+
+.primarycolor2 {
+    background: #12504B;
+}
+
+.primarycolor3 {
+    background: #186862;
+}
+
+.lightskycolor {
+    background: #20847D;
+}
+
+.primarycolor5 {
+    background: #2AA098;
+}
+
+.primarycolor6 {
+    background: #5FB8B1;
+}
+
+.primarycolor7 {
+    background: #A6DAD6;
+}
+
+.primarycolor8 {
+    background: #DDEFEE;
+}
+
+.primarycolor {
+    background: #092D2A;
+}
+
+
+/*textcolor*/
+
+.primarycolorblack {
+    color: #000000;
+}
+
+.lightskytext {
+    color: #20847D;
+}
+
+.primarytextalice {
+    color: aliceblue;
+}
+
+.whitecolor {
+    color: #FFFFFF;
+}
+
+.primarytextdark {
+    color: #6C778C;
+}
+
+.primarytextdark1 {
+    color: #5D5E60;
+}
+
+.secondarytextyellow {
+    color: #FAB446;
+}
